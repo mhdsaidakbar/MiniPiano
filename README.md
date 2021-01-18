@@ -1,5 +1,5 @@
-# android-kotlin-piano-application
-This is a simple piano application, where you can play with that, whenever you will free. it makes your mind fresh :)
+#Mini Piano Kotlin
+Applikasi mini piano simple berbasiskan bahasa kotlin
 <p align="center">
-<img src="http://www.codingwithjks.tech/Github/piano.png" alt="piano"/>
+<img src="https://github.com/mhdsaidakbar/MiniPiano/blob/main/ss.png"/>
 </p>
