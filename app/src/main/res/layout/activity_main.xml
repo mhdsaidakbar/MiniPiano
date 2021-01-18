@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303F9F"
+    android:gravity="top|center"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="607dp"
+        android:layout_height="133dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="293dp"
+            android:layout_marginLeft="293dp"
+            android:layout_marginTop="64dp"
+            android:layout_marginBottom="296dp"
+            android:text="Mini Piano"
+            android:textSize="60sp"
+            app:fontFamily="@font/aguafina_script" />
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="614dp"
+        android:layout_height="255dp"
+        android:layout_marginTop="30dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+
+                android:id="@+id/p1"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p2"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p1"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p3"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p2"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p4"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p3"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p5"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p4"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p6"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p5"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p7"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p6"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p8"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p7"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p9"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p8"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p10"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p9"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p11"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p10"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p12"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p11"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+            <Button
+                android:id="@+id/p13"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_toRightOf="@+id/p12"
+                android:background="@drawable/pressed_and_normal_selector"
+                android:stateListAnimator="@null" />
+
+
+            <TextView
+                android:id="@+id/tc3"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:stateListAnimator="@null"
+                android:text="DO"
+                android:textColor="#6200EA"
+                android:textIsSelectable="false" />
+
+
+            <TextView
+                android:id="@+id/td3"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginEnd="2dp"
+                android:layout_toStartOf="@+id/te3"
+                android:layout_toLeftOf="@id/p3"
+                android:layout_toEndOf="@+id/tc3"
+                android:stateListAnimator="@null"
+                android:text="RE"
+                android:textColor="#6200EA"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/te3"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:layout_toLeftOf="@id/p4"
+                android:stateListAnimator="@null"
+                android:text="MI"
+                android:textColor="#6200EA"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tf3"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:layout_toLeftOf="@id/p5"
+                android:stateListAnimator="@null"
+                android:text="FA"
+                android:textColor="#6200EA"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tg3"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:layout_toLeftOf="@id/p6"
+                android:stateListAnimator="@null"
+                android:text="SO"
+                android:textColor="#6200EA"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/ta3"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:layout_toLeftOf="@id/p7"
+                android:stateListAnimator="@null"
+                android:text="LA"
+                android:textColor="#6200EA"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tb3"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:layout_toLeftOf="@id/p8"
+                android:stateListAnimator="@null"
+                android:text="SI"
+                android:textColor="#6200EA"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tc4"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:layout_toLeftOf="@id/p9"
+                android:stateListAnimator="@null"
+                android:text="DO"
+                android:textColor="#6200EA"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/td4"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:layout_toLeftOf="@id/p10"
+                android:stateListAnimator="@null"
+                android:text="SI"
+                android:textColor="#00C853"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/te4"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:layout_toLeftOf="@id/p11"
+                android:stateListAnimator="@null"
+                android:text="LA"
+                android:textColor="#00C853"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tf4"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:layout_toLeftOf="@id/p12"
+                android:stateListAnimator="@null"
+                android:text="SO"
+                android:textColor="#00C853"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/tg4"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:layout_toLeftOf="@id/p13"
+                android:stateListAnimator="@null"
+                android:text="FA"
+                android:textColor="#00C853"
+                android:textIsSelectable="false" />
+
+            <TextView
+                android:id="@+id/th4"
+                android:layout_width="45dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginRight="-45dp"
+                android:layout_toLeftOf="@id/p13"
+                android:stateListAnimator="@null"
+                android:text="MI"
+                android:textColor="#00C853"
+                android:textIsSelectable="false" />
+
+
+        </RelativeLayout>
+    </HorizontalScrollView>
+
+
+</RelativeLayout>
